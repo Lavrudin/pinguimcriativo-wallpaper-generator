@@ -1,6 +1,6 @@
 import { Container } from "./styles/style";
 import { useState } from "react";
-import { SettingsContainer } from "./MenuStyle";
+import { SettingsContainer } from "./styles/MenuStyle";
 import html2canvas from "html2canvas";
 
 import "./styles/global.css";
