@@ -128,7 +128,7 @@ function App() {
             ></textarea>
           </div>
           <div className="botton-download" onClick={generateWallpaper}>
-            <a href="##">GENERATE WALLPAPER</a>
+            <a href="##">GERAR PAPEL DE PAREDE</a>
           </div>
         </div>
       </SettingsContainer>
