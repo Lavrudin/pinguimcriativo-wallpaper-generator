@@ -81,8 +81,8 @@ export const SettingsContainer = styled.div`
       &:hover {
         filter: brightness(0.9);
         color: #ffffff;
-        padding-left: 6rem;
-        padding-right: 6rem;
+        padding-left: 5.5rem;
+        padding-right: 5.5rem;
         transition: 0.5s ease-in-out;
       }
     }
