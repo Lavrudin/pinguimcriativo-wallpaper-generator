@@ -13,8 +13,12 @@ function App() {
   const [textColor, setTextColor] = useState("#ffffff");
   const [fontSize, setFontSize] = useState("");
   const [wallpaperBackgroundColor, setWallpaperBackgroundColor] = useState("");
-  const [wallpaperWidth, setWallpaperWidth] = useState("1920px");
-  const [wallpaperHeight, setWallpaperHeight] = useState("1080px");
+  const [wallpaperWidth, setWallpaperWidth] = useState(
+    `${window.screen.availWidth}`
+  );
+  const [wallpaperHeight, setWallpaperHeight] = useState(
+    `${window.screen.availHeight}`
+  );
   const [logoSize, setLogoSize] = useState("");
 
   const changeTextStyle = {
@@ -62,7 +66,7 @@ function App() {
             <span>Largura</span>
             <input
               type="text"
-              placeholder="1920px"
+              placeholder={`${window.screen.availWidth}px`}
               onChange={(event) => setWallpaperWidth(event.target.value)}
             />
           </div>
@@ -70,7 +74,7 @@ function App() {
             <span>Altura</span>
             <input
               type="text"
-              placeholder="1080px"
+              placeholder={`${window.screen.availHeight}px`}
               onChange={(event) => setWallpaperHeight(event.target.value)}
             />
           </div>
