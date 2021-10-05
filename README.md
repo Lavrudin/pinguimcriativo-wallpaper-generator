@@ -8,7 +8,7 @@
 
 <p align="center">
   <video width="100%" controls autoplay>
-  <source src="./videodemo/videodemo.mkv"></video>
+  <source src="./videodemo/videodemo.mp4"></video>
 </p>
 
 > A simple wallpaper generator from the Pinguim Criativo project developed in ReactJS.
